@@ -5,6 +5,11 @@
 
   export default defineConfig({
     plugins: [react()],
+    base: '/5904project-team3/',
+    build: {
+      target: 'esnext',
+      outDir: 'docs', // 打包输出到 docs 目录，方便 GitHub Pages 使用
+    },
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
@@ -55,10 +60,7 @@
         '@': path.resolve(__dirname, './src'),
       },
     },
-    build: {
-      target: 'esnext',
-      outDir: 'build',
-    },
+    
     server: {
       port: 3000,
       open: true,
