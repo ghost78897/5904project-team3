@@ -1,9 +1,11 @@
 
-  # Interactive Map Design Details
+  # Accessing the website
 
-  This is a code bundle for Interactive Map Design Details. The original project is available at https://www.figma.com/design/1qEWAFp16E5SYZ9Tvkpeh3/Interactive-Map-Design-Details.
+  https://ghost78897.github.io/5904project-team3/
 
   ## Running the code
+
+  You need to install node.js first.
 
   Run `npm i` to install the dependencies.
 
